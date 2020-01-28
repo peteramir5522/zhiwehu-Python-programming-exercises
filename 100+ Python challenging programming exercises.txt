@@ -52,7 +52,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Solution:
-def fun():
+def fact():
     x = int(input("N!= "))
     y = 1
     for n in range(1, x+1):
@@ -60,7 +60,7 @@ def fun():
     print(y)
     
     
-fun()
+fact()
 #----------------------------------------#
 
 #----------------------------------------#
